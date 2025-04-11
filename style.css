@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media only screen and (min-width:320px) and (max-width:767px){
+    .burger{
+        @apply fixed bottom-0 py-[5px] bg-white border border-t-gray-300;
+    }
+}
+.active{
+    @apply bg-gray-200 border-b-2 border-b-blue-600;
+}
